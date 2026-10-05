@@ -1,0 +1,555 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name" translatable="false">Freezr</string>
+
+    <!-- Common -->
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+    <string name="done">Done</string>
+    <string name="save">Save</string>
+    <string name="delete">Delete</string>
+    <string name="edit">Edit</string>
+    <string name="duplicate">Duplicate</string>
+    <string name="back">Back</string>
+    <string name="close">Close</string>
+    <string name="add">Add</string>
+    <string name="on">On</string>
+    <string name="off">Off</string>
+    <string name="fix">Fix</string>
+    <string name="start">Start</string>
+    <string name="custom">Custom</string>
+    <string name="not_now">Not now</string>
+    <string name="more_options">More options</string>
+    <string name="settings">Settings</string>
+    <string name="today">Today</string>
+    <string name="this_week">This week</string>
+
+    <!-- Tabs -->
+    <string name="tab_home">Home</string>
+    <string name="tab_schedules">Schedules</string>
+    <string name="tab_apps">Apps</string>
+    <string name="tab_insights">Insights</string>
+
+    <!-- Home -->
+    <string name="greeting_morning">Good morning</string>
+    <string name="greeting_afternoon">Good afternoon</string>
+    <string name="greeting_evening">Good evening</string>
+    <string name="hero_paused">Protection paused</string>
+    <string name="hero_paused_sub">Nothing is being frozen right now.</string>
+    <string name="hero_protected">All clear</string>
+    <string name="hero_until">Until %1$s</string>
+    <string name="hero_while_rule">While the rule is active</string>
+    <string name="hero_next_change">Next change %1$s</string>
+    <string name="hero_idle_sub">Set a schedule or start a focus session.</string>
+    <string name="protection_on">Protection on</string>
+    <string name="protection_off">Protection off</string>
+    <string name="strict_mode_on">Strict Mode</string>
+    <string name="master_toggle">Freezr protection</string>
+    <string name="health_title">Protection needs attention</string>
+    <string name="health_sub_critical">Apps can’t be frozen until this is fixed.</string>
+    <string name="health_sub_minor">Some features are limited.</string>
+    <string name="health_ok">Protection healthy · all permissions in place</string>
+    <string name="oem_guide_link">Phone keeps turning Freezr off? See tips for your phone</string>
+    <string name="focus_title">Focus</string>
+    <string name="focus_sub">Freeze distractions right now.</string>
+    <string name="focus_running">Focus session running</string>
+    <string name="focus_target">Freeze: %1$s ▾</string>
+    <string name="edit_my_apps">Edit my apps…</string>
+    <string name="add_15">15 min</string>
+    <string name="end_early">End early</string>
+    <string name="custom_focus">Custom focus</string>
+    <string name="frozen_now">Frozen now</string>
+    <string name="until_time">until %1$s</string>
+    <string name="get_started_title">Let’s set you up</string>
+    <string name="get_started_body">Pick the apps that steal your time, then add a schedule like “Sleep” or “Work”.</string>
+    <string name="pick_apps">Pick apps</string>
+    <string name="your_tools">Your tools</string>
+    <string name="strict_mode">Strict Mode</string>
+    <string name="emergency_passes">Emergency passes</string>
+    <string name="places_wifi">Places &amp; Wi-Fi</string>
+    <string name="places_wifi_sub">Freeze apps at work, school or home</string>
+    <string name="web_blocking">Websites &amp; Reels</string>
+    <string name="web_blocking_sub">Block sites and short-video feeds</string>
+    <string name="nothing_selected">Pick some apps first — open Apps and tick the ones to freeze.</string>
+    <string name="strict_blocked_action">Strict Mode is on while a freeze is active. Unlock it first.</string>
+    <string name="strict_locked_title">Locked by Strict Mode</string>
+    <string name="strict_locked_body">Rules can’t be loosened while a freeze is active. Tap to unlock.</string>
+
+    <!-- Apps -->
+    <string name="apps_subtitle">%1$d of %2$d apps selected</string>
+    <string name="apps_intro">Tick the apps that steal your time. Focus sessions freeze these, and they’re preselected for new schedules.</string>
+    <string name="search_apps">Search apps</string>
+    <string name="filter_all">All</string>
+    <string name="filter_selected">Selected</string>
+    <string name="filter_limited">With limits</string>
+    <string name="my_apps">My apps</string>
+    <string name="groups">Groups</string>
+    <string name="group_chip">%1$s · %2$d</string>
+    <string name="new_group">New group</string>
+    <string name="edit_group">Edit group</string>
+    <string name="group_name">Group name</string>
+    <string name="delete_group_title">Delete group?</string>
+    <string name="delete_group_body">“%1$s” will be removed. Schedules keep their apps.</string>
+    <string name="no_apps_title">No apps found</string>
+    <string name="no_apps_body">Try a different search.</string>
+    <string name="limit_row">%1$s used of %2$d min today</string>
+    <string name="cd_set_limit">Set daily limit for %1$s</string>
+    <string name="limit_dialog_title">Daily limit for %1$s</string>
+    <string name="limit_dialog_hint" formatted="false">When the limit is reached the app freezes until the daily reset. You’ll get a heads-up at 80%.</string>
+    <string name="remove_limit">Remove</string>
+    <string name="choose_apps">Choose apps</string>
+    <string name="choose_apps_hint">Nothing will freeze until you pick at least one app.</string>
+
+    <!-- Schedules -->
+    <string name="new_schedule">New schedule</string>
+    <string name="edit_schedule">Edit schedule</string>
+    <string name="save_schedule">Save schedule</string>
+    <string name="schedule_name">Name</string>
+    <string name="schedule_name_hint">Sleep, Work, Study…</string>
+    <string name="when_label">When</string>
+    <string name="starts">Starts</string>
+    <string name="ends">Ends</string>
+    <string name="overnight_hint">Ends the next morning. A night window belongs to the day it starts.</string>
+    <string name="all_day_hint">Same start and end time: frozen for a full 24 hours.</string>
+    <string name="repeat_on">Repeat on</string>
+    <string name="apps_to_freeze">Apps to freeze</string>
+    <string name="days_every_day">Every day</string>
+    <string name="days_weekdays">Weekdays</string>
+    <string name="days_weekends">Weekends</string>
+    <string name="template_sleep">Sleep</string>
+    <string name="template_work">Work</string>
+    <string name="template_morning">Calm morning</string>
+    <string name="template_study">Study</string>
+    <string name="active_now">Active</string>
+    <string name="schedule_off">Schedule is off</string>
+    <string name="schedule_deleted">Schedule deleted</string>
+    <string name="delete_schedule_title">Delete schedule?</string>
+    <string name="delete_schedule_body">“%1$s” will stop freezing apps.</string>
+    <string name="no_schedules_title">No schedules yet</string>
+    <string name="no_schedules_body">Freeze apps automatically — overnight, during work, or whenever you choose.</string>
+
+    <!-- Freeze screen -->
+    <string name="app_is_frozen">This app is frozen</string>
+    <string name="site_is_frozen">This site is frozen</string>
+    <string name="reason_line">%1$s · %2$s</string>
+    <string name="reason_focus">Focus</string>
+    <string name="reason_schedule">Schedule</string>
+    <string name="reason_limit">Limit reached</string>
+    <string name="reason_location">Location rule</string>
+    <string name="reason_wifi">Wi-Fi rule</string>
+    <string name="reason_website">Website blocked</string>
+    <string name="reason_in_app">In-app rule</string>
+    <string name="unfreezes_at">Unfreezes %1$s</string>
+    <string name="unfreezes_when_rule_ends">Unfreezes when you leave this place or network.</string>
+    <string name="go_home">Go home</string>
+    <string name="go_back">Go back</string>
+    <string name="freeze_footer">You set this up to protect your time. Future you says thanks.</string>
+    <string name="surface_frozen_toast">%1$s is frozen right now</string>
+
+    <!-- Notifications -->
+    <string name="channel_status">Status</string>
+    <string name="channel_status_desc">Shows whether protection is on, with a quick pause button.</string>
+    <string name="channel_pre_freeze">Freeze reminders</string>
+    <string name="channel_pre_freeze_desc">A heads-up a few minutes before apps freeze.</string>
+    <string name="channel_limits">Daily limits</string>
+    <string name="channel_limits_desc" formatted="false">Warnings at 80% and 100% of a daily limit.</string>
+    <string name="channel_health">Protection problems</string>
+    <string name="channel_health_desc">Alerts when Freezr can no longer freeze apps.</string>
+    <string name="two_apps">%1$s and %2$s</string>
+    <string name="many_apps">%1$s and %2$d more</string>
+    <string name="pre_freeze_text">%1$s</string>
+    <string name="limit_warning_title">%1$s: %2$d%% of today’s limit used</string>
+    <string name="limit_reached_title">%1$s limit reached</string>
+    <string name="limit_reached_text">Frozen until the daily reset.</string>
+    <string name="health_alert_title">Freezr can’t freeze apps</string>
+    <string name="action_fix_now">Fix now</string>
+    <string name="action_pause">Pause</string>
+    <string name="action_resume">Resume</string>
+    <string name="status_paused">Protection paused</string>
+    <string name="status_paused_text">Tap Resume to freeze apps again.</string>
+    <string name="status_protecting">Freezr is protecting your time</string>
+
+    <!-- Health items -->
+    <string name="health_accessibility">Accessibility service is off</string>
+    <string name="health_accessibility_body">Needed to see which app is open and freeze it.</string>
+    <string name="health_service">Freezr service isn’t running</string>
+    <string name="health_service_body">It’s enabled but was stopped. Turn it off and on again in Accessibility.</string>
+    <string name="health_usage">Usage access is off</string>
+    <string name="health_usage_body">Needed for daily limits and insights.</string>
+    <string name="health_notifications">Notifications are off</string>
+    <string name="health_notifications_body">You won’t get freeze reminders or problem alerts.</string>
+    <string name="health_alarms">Exact alarms are off</string>
+    <string name="health_alarms_body">Freezes may start or end a few minutes late.</string>
+    <string name="health_battery">Battery optimisation is on</string>
+    <string name="health_battery_body">Your phone may stop Freezr in the background.</string>
+    <string name="health_location">Location access is missing</string>
+    <string name="health_location_body">Place and Wi-Fi rules need “Allow all the time”.</string>
+    <string name="health_admin">Uninstall protection is off</string>
+    <string name="health_admin_body">Optional: makes it harder to uninstall Freezr on impulse.</string>
+
+    <!-- Onboarding -->
+    <string name="ob_welcome_title">Freeze the apps that steal your time.</string>
+    <string name="ob_welcome_body">Schedules, focus sessions and daily limits put distracting apps on ice — so your time goes where you want it.</string>
+    <string name="ob_get_started">Get started</string>
+    <string name="ob_continue">Continue</string>
+    <string name="ob_finish">Finish setup</string>
+    <string name="ob_granted">Granted</string>
+    <string name="ob_allow">Allow</string>
+    <string name="ob_open_settings">Open settings</string>
+    <string name="ob_agree_open">Agree &amp; open settings</string>
+    <string name="ob_privacy_title">Everything stays on your phone</string>
+    <string name="ob_privacy_body">Freezr has no internet permission, no account, no ads and no analytics. Your rules, usage and history never leave this device.</string>
+    <string name="ob_disclosure_header">What Freezr does with this access</string>
+    <string name="ob_a11y_title">Accessibility service</string>
+    <string name="ob_a11y_body">Freezr uses the Android Accessibility API to detect which app is on screen, so it can cover apps you’ve frozen with the freeze screen and send you home.</string>
+    <string name="ob_a11y_point_1">It reads the name of the app in the foreground to decide whether it’s frozen.</string>
+    <string name="ob_a11y_point_2">Only if you turn on website or Reels blocking, it reads the address bar of supported browsers and looks for specific on-screen elements in those apps.</string>
+    <string name="ob_a11y_point_3">Under Strict Mode, it recognises Freezr’s own App info and Accessibility pages in Settings to keep you from switching it off on impulse.</string>
+    <string name="ob_a11y_point_4">Nothing it sees is stored, logged, shared or sent anywhere. It’s processed in memory and discarded.</string>
+    <string name="ob_usage_title">Usage access</string>
+    <string name="ob_usage_body">Usage access lets Freezr measure how long you use each app today, for daily limits and your insights.</string>
+    <string name="ob_usage_point_1">It reads app open/close times from Android’s usage statistics.</string>
+    <string name="ob_usage_point_2">Totals are kept on this phone for up to 90 days and then deleted.</string>
+    <string name="ob_usage_point_3">Usage data is never shared or uploaded.</string>
+    <string name="ob_notif_title">Notifications</string>
+    <string name="ob_notif_body">Get a heads-up before apps freeze, limit warnings, and an alert if your phone ever turns Freezr off.</string>
+    <string name="ob_alarm_title">Exact timing</string>
+    <string name="ob_alarm_body">“Alarms &amp; reminders” lets freezes start and end on the minute, even when your phone is idle.</string>
+    <string name="ob_battery_title">Stay running</string>
+    <string name="ob_battery_body">Some phones stop apps in the background to save battery. Exclude Freezr from battery optimisation so your rules keep working. It uses almost no battery: it sleeps until an app opens.</string>
+    <string name="ob_optional_title">Optional extras</string>
+    <string name="ob_optional_body">Location (for place and Wi-Fi rules) is only requested when you create such a rule. Uninstall protection can be turned on later from Strict Mode.</string>
+    <string name="ob_apps_title">Which apps distract you?</string>
+    <string name="ob_apps_body">Pick a few to start. You can change this any time in the Apps tab.</string>
+
+    <!-- OEM -->
+    <string name="oem_title">Keep Freezr running</string>
+    <string name="oem_settings_sub">Tips for Xiaomi, Samsung, OPPO, vivo and others</string>
+    <string name="oem_detected">Detected: %1$s</string>
+    <string name="oem_intro">Your phone’s battery manager may stop Freezr. Follow these steps once.</string>
+    <string name="oem_shortcuts">Shortcuts</string>
+    <string name="oem_steps">Step by step</string>
+    <string name="oem_open_autostart">Open autostart settings</string>
+    <string name="oem_open_battery">Open battery manager</string>
+    <string name="oem_open_battery_optimization">Open battery optimisation list</string>
+    <string name="oem_open_app_info">Open Freezr app info</string>
+    <string name="oem_force_stop_note">Note: if you Force stop Freezr from Settings, Android disables it until you open it again. No app can prevent that — Freezr will warn you as soon as it can.</string>
+    <string-array name="oem_steps_xiaomi">
+        <item>Settings → Apps → Manage apps → Freezr → Autostart: turn it on.</item>
+        <item>Same page → Battery saver → choose “No restrictions”.</item>
+        <item>Open recent apps, long-press Freezr and tap the lock icon so it isn’t cleared.</item>
+        <item>Security app → Permissions → Other permissions: allow “Display pop-up windows while running in the background”.</item>
+    </string-array>
+    <string-array name="oem_steps_oppo">
+        <item>Settings → Apps → App management → Freezr → Battery usage: allow background activity and auto launch.</item>
+        <item>Settings → Battery → More settings: turn off “Optimise battery use” for Freezr.</item>
+        <item>Open recent apps, tap the menu on Freezr’s card and choose “Lock”.</item>
+    </string-array>
+    <string-array name="oem_steps_realme">
+        <item>Settings → App management → Freezr → Battery usage: allow “Auto launch” and “Run in background”.</item>
+        <item>Settings → Battery → turn off battery optimisation for Freezr.</item>
+        <item>Lock Freezr in recent apps.</item>
+    </string-array>
+    <string-array name="oem_steps_vivo">
+        <item>i Manager → App manager → Autostart manager: enable Freezr.</item>
+        <item>Settings → Battery → High background power consumption: allow Freezr.</item>
+        <item>Lock Freezr in recent apps (swipe down on its card).</item>
+    </string-array>
+    <string-array name="oem_steps_oneplus">
+        <item>Settings → Apps → Freezr → Battery: choose “Unrestricted”.</item>
+        <item>Settings → Battery → Advanced → turn off “Deep optimisation” or exclude Freezr.</item>
+        <item>Lock Freezr in recent apps.</item>
+    </string-array>
+    <string-array name="oem_steps_samsung">
+        <item>Settings → Apps → Freezr → Battery: choose “Unrestricted”.</item>
+        <item>Settings → Battery → Background usage limits: make sure Freezr is not in “Sleeping” or “Deep sleeping” apps, and add it to “Never sleeping apps”.</item>
+        <item>Turn off “Put unused apps to sleep”.</item>
+    </string-array>
+    <string-array name="oem_steps_huawei">
+        <item>Settings → Battery → App launch → Freezr: switch to “Manage manually” and enable Auto-launch, Secondary launch and Run in background.</item>
+        <item>Phone Manager → Protected apps (older EMUI): protect Freezr.</item>
+        <item>Lock Freezr in recent apps.</item>
+    </string-array>
+    <string-array name="oem_steps_other">
+        <item>Settings → Apps → Freezr → Battery: choose “Unrestricted” or “Not optimised”.</item>
+        <item>Keep the Freezr accessibility service turned on in Settings → Accessibility.</item>
+        <item>Avoid “Force stop” on Freezr — Android won’t restart it until you open it again.</item>
+    </string-array>
+
+    <!-- Strict -->
+    <string name="strict_commitment_title">A commitment you choose</string>
+    <string name="strict_commitment_body">While any freeze is active, Strict Mode stops you from pausing Freezr, ending focus early, editing or disabling schedules, or loosening limits. To change anything you’ll have to unlock it the hard way — that pause is the point. You can always turn Strict Mode off when nothing is frozen.</string>
+    <string name="strict_status_off">Off</string>
+    <string name="strict_status_armed">On · active whenever something is frozen</string>
+    <string name="strict_status_locked">Locked · a freeze is active</string>
+    <string name="unlock_method">How to unlock</string>
+    <string name="method_delay">Delay timer (recommended)</string>
+    <string name="method_delay_body">Request an unlock, wait %1$d minutes, then confirm.</string>
+    <string name="method_pin">PIN</string>
+    <string name="method_pin_body">Set a PIN — ideally one someone else chose for you.</string>
+    <string name="method_pin_body_set">PIN set. 5 wrong tries trigger an increasing lockout.</string>
+    <string name="method_partner">Partner approval</string>
+    <string name="method_partner_body">Needs an online account service — not available in this version.</string>
+    <string name="delay_length">Wait %1$d minutes before unlocking</string>
+    <string name="delay_length_hint">Longer waits work better. Shortening the wait is blocked while Strict Mode is locked.</string>
+    <string name="change_pin">Change PIN</string>
+    <string name="set_pin">Set a PIN</string>
+    <string name="enter_pin">Enter PIN</string>
+    <string name="pin">PIN</string>
+    <string name="confirm_pin">Confirm PIN</string>
+    <string name="pin_rules">4–12 digits.</string>
+    <string name="pin_saved">PIN saved</string>
+    <string name="pin_wrong">Wrong PIN. %1$d tries left before a lockout.</string>
+    <string name="pin_locked_out">Too many tries. Try again after %1$s.</string>
+    <string name="no_pin_set">No PIN is set.</string>
+    <string name="unlock_title">Unlock Strict Mode</string>
+    <string name="unlocked_for">Unlocked for</string>
+    <string name="unlocked_hint">Make your changes now. Strict Mode locks again automatically.</string>
+    <string name="lock_now">Lock now</string>
+    <string name="strict_unlocked_msg">Strict Mode unlocked for 5 minutes</string>
+    <string name="request_unlock">Request unlock (wait %1$d min)</string>
+    <string name="delay_waiting">Unlock requested. Still want it when the timer ends?</string>
+    <string name="delay_ready">You can unlock now. This window closes in %1$s.</string>
+    <string name="delay_expired">The last confirm window passed without unlocking.</string>
+    <string name="delay_already">An unlock request is already running.</string>
+    <string name="delay_rate_limited">Too many unlock requests this hour. Try later.</string>
+    <string name="confirm_unlock">Unlock</string>
+    <string name="stay_locked">Stay locked</string>
+    <string name="never_mind">Never mind</string>
+    <string name="ask_partner">Ask partner</string>
+    <string name="partner_unavailable">Partner approval isn’t available in this version.</string>
+    <string name="uninstall_protection">Uninstall protection</string>
+    <string name="uninstall_protection_body">Optional. Activates Freezr as a device admin (no device policies are used). Android then won’t uninstall Freezr until admin is turned off, and under Strict Mode Freezr steers you away from the screens that would switch it off. This is a self-control feature you choose — you can deactivate it whenever Strict Mode is unlocked.</string>
+    <string name="activate_admin">Turn on uninstall protection</string>
+    <string name="admin_active">Uninstall protection is on</string>
+    <string name="bypass_log">Unlock attempts</string>
+    <string name="admin_explanation">Freezr uses device admin only as a speed bump against uninstalling it on impulse. It does not use any device policies and cannot lock or wipe your phone.</string>
+    <string name="admin_description">Makes it harder to uninstall Freezr on impulse. No device policies are used.</string>
+    <string name="admin_disable_warning">Turning this off removes Freezr’s uninstall protection.</string>
+    <string name="admin_disable_warning_strict">Strict Mode is on and a freeze is active. You promised yourself this time — are you sure?</string>
+    <string name="protect_settings">Protect Freezr settings</string>
+    <string name="protect_settings_sub">Under Strict Mode, back out of Freezr’s App info, Accessibility and Device admin pages</string>
+
+    <!-- Emergency -->
+    <string name="emergency_unlock">Emergency unlock</string>
+    <string name="emergency_settings_sub">Passes, waiting time and phrase</string>
+    <string name="emergency_intro_title">Do you really need this right now?</string>
+    <string name="emergency_intro_body">If it’s important, you can open this one app briefly. First there’s a %1$d-second pause, then you’ll type a short phrase.</string>
+    <string name="start_unlock">I need it — start</string>
+    <string name="stay_frozen">Keep it frozen</string>
+    <string name="emergency_breathe">Take a breath. Still need it?</string>
+    <string name="cancel_unlock">Never mind, keep it frozen</string>
+    <string name="type_phrase">Type this phrase to continue</string>
+    <string name="phrase">Phrase</string>
+    <string name="no_passes_left">No emergency passes left this week.</string>
+    <string name="unlocked_until">Unlocked until %1$s</string>
+    <string name="not_frozen_now">This app isn’t frozen anymore.</string>
+    <string name="unlock_not_allowed">Emergency unlock isn’t allowed for this freeze (Strict Mode focus session).</string>
+    <string name="open_app">Open app</string>
+    <string name="recent_unlocks">Recent unlocks</string>
+    <string name="log_pass">%1$d-minute pass</string>
+    <string name="log_extra">+%1$d min limit</string>
+    <string name="emergency_info">When an app is frozen you can tap “Emergency unlock” on the freeze screen. After a %1$d-second pause and typing a phrase, that one app opens for %2$d minutes. You get %3$d passes per rolling week. For a daily limit, a pass adds %4$d extra minutes instead. Every use is logged and breaks your streak.</string>
+    <string name="emergency_rules">Emergency unlock rules</string>
+    <string name="emergency_rules_value">%1$d per week · %2$d min each</string>
+    <string name="emergency_enabled">Allow emergency unlocks</string>
+    <string name="wait_seconds">Waiting time (seconds)</string>
+    <string name="passes_per_week">Passes per week</string>
+    <string name="minutes_per_pass">Minutes per pass</string>
+    <string name="extra_limit_minutes">Extra minutes for a daily limit</string>
+    <string name="emergency_settings_hint">Under Strict Mode only stricter values can be saved.</string>
+
+    <!-- Settings -->
+    <string name="settings_section_protection">Protection</string>
+    <string name="settings_section_notifications">Notifications</string>
+    <string name="settings_section_limits">Limits</string>
+    <string name="settings_section_more">More</string>
+    <string name="pre_freeze_setting">Heads-up before freezing</string>
+    <string name="pre_freeze_enabled">Send a heads-up</string>
+    <string name="minutes_before">%1$d minutes before</string>
+    <string name="limit_warnings">Limit warnings</string>
+    <string name="limit_warnings_sub" formatted="false">At 80% and 100% of a daily limit</string>
+    <string name="status_notification">Status notification</string>
+    <string name="status_notification_sub">Shows protection state with a pause button</string>
+    <string name="reset_time">Daily limits reset at</string>
+    <string name="whitelist">Always allowed</string>
+    <string name="whitelist_sub">Apps that can never be frozen</string>
+    <string name="whitelist_intro">These apps are never frozen, so you can always call, text, use your keyboard and fix your settings. The core safety set can’t be removed.</string>
+    <string name="whitelist_core">Core safety set</string>
+    <string name="whitelist_yours">Added by you</string>
+    <string name="whitelist_empty">Nothing added yet.</string>
+    <string name="whitelist_default">Default — you can remove it</string>
+    <string name="add_app">Add app</string>
+    <string name="cd_cannot_remove">Can’t be removed</string>
+    <string name="cd_remove_whitelist">Remove %1$s from always allowed</string>
+    <string name="selector_health">Selector health</string>
+    <string name="selector_health_sub">Debug: are website and in-app rules matching?</string>
+    <string name="privacy">Privacy</string>
+    <string name="privacy_sub">What Freezr accesses and why</string>
+    <string name="version_line">Freezr %1$s · all data stays on this device</string>
+
+    <!-- Privacy policy (also in PRIVACY_POLICY.md) -->
+    <string name="privacy_h_summary">In short</string>
+    <string name="privacy_b_summary">Freezr works entirely on your phone. It has no internet permission, no account, no ads and no analytics. Nothing is collected by us, because nothing ever leaves your device.</string>
+    <string name="privacy_h_accessibility">Accessibility service</string>
+    <string name="privacy_b_accessibility">Used to detect which app is in the foreground and to show the freeze screen. If you enable website or Reels blocking, it reads the browser address bar or looks for specific elements in those apps. Under Strict Mode it recognises Freezr’s own pages in Settings. Screen content is processed in memory only and is never stored, logged or transmitted.</string>
+    <string name="privacy_h_usage">Usage access</string>
+    <string name="privacy_b_usage">Used to calculate per-app screen time for daily limits and insights. Daily totals are stored on the device for up to 90 days.</string>
+    <string name="privacy_h_apps">Installed apps</string>
+    <string name="privacy_b_apps">Freezr lists apps that have a launcher icon so you can choose which to freeze. It does not request access to all installed packages.</string>
+    <string name="privacy_h_location">Location (optional)</string>
+    <string name="privacy_b_location">Only if you create a place or Wi-Fi rule. Location is used on-device to know whether you are inside a place you defined, or which Wi-Fi network you are on. Location history is not stored.</string>
+    <string name="privacy_h_storage">What is stored</string>
+    <string name="privacy_b_storage">Your rules and settings, blocked-attempt counts, unlock logs and daily usage totals, in Freezr’s private storage. A Strict Mode PIN is stored only as a salted PBKDF2 hash, encrypted with an Android Keystore key. Data is excluded from backups.</string>
+    <string name="privacy_h_sharing">Sharing</string>
+    <string name="privacy_b_sharing">None. Freezr does not share, sell or upload any data, and contains no third-party SDKs that do.</string>
+    <string name="privacy_h_delete">Deleting your data</string>
+    <string name="privacy_b_delete">Uninstall Freezr or clear its storage in Android Settings. Records older than 90 days are deleted automatically.</string>
+
+    <!-- Insights -->
+    <string name="insights_need_usage">Turn on Usage access to see screen time.</string>
+    <string name="streak_label">streak · best %1$d</string>
+    <string name="attempts_blocked">opens blocked</string>
+    <string name="time_saved_est">saved (est.)</string>
+    <string name="screen_time">Screen time</string>
+    <string name="most_used">Most used</string>
+    <string name="most_attempted">Most attempted while frozen</string>
+    <string name="no_attempts">No blocked opens in this period. Nice.</string>
+    <string name="insights_local_note">Calculated on this phone from Android usage statistics and Freezr’s local history. “Time saved” assumes about 4 minutes per blocked open. A streak day has no emergency unlocks and no Strict Mode bypasses.</string>
+
+    <!-- Places & Wi-Fi -->
+    <string name="places_intro">Freeze apps while you’re at a place or connected to a Wi-Fi network, optionally only at certain times.</string>
+    <string name="new_rule">New rule</string>
+    <string name="edit_rule">Edit rule</string>
+    <string name="save_rule">Save rule</string>
+    <string name="no_rules_title">No place or Wi-Fi rules</string>
+    <string name="no_rules_body">For example: freeze games at school, or social apps on the office Wi-Fi.</string>
+    <string name="location_missing">Location permission (“Allow all the time”) is missing, so these rules can’t activate.</string>
+    <string name="connected">Connected</string>
+    <string name="inside">Inside</string>
+    <string name="radius_m">Radius %1$d m</string>
+    <string name="delete_rule_title">Delete rule?</string>
+    <string name="delete_rule_body">This rule will stop freezing apps.</string>
+    <string name="wifi">Wi-Fi</string>
+    <string name="place">Place</string>
+    <string name="rule_name">Name</string>
+    <string name="rule_name_hint_place">Office, School, Gym…</string>
+    <string name="rule_name_hint_wifi">Home Wi-Fi…</string>
+    <string name="no_place_yet">No place chosen yet.</string>
+    <string name="use_current_location">Use my current location</string>
+    <string name="use_current_wifi">Use the Wi-Fi I’m on</string>
+    <string name="ssid">Network name (SSID)</string>
+    <string name="only_during">Only during</string>
+    <string name="time_filter">Only at certain times</string>
+    <string name="location_failed">Couldn’t get your location. Check that location is on.</string>
+    <string name="location_privacy_note">Location is checked on this phone only and never stored or shared.</string>
+    <string name="bg_location_title">Allow location all the time?</string>
+    <string name="bg_location_body">To freeze apps when you arrive somewhere — even when Freezr isn’t open — Android needs location set to “Allow all the time”. Freezr only checks whether you’re inside the places you defined, on this phone, and never records where you go.</string>
+    <string name="bg_location_allow">Open settings</string>
+
+    <!-- Web -->
+    <string name="best_effort_title">Best effort</string>
+    <string name="best_effort_body">Works in %1$s by reading the address bar, and in supported apps by recognising their screens. Apps change their design often, so this can stop working until the rules file is updated. If a rule doesn’t match, nothing is blocked.</string>
+    <string name="websites">Websites</string>
+    <string name="and_subdomains">+ subdomains</string>
+    <string name="invalid_domain">That doesn’t look like a website address.</string>
+    <string name="cd_remove_domain">Remove %1$s</string>
+    <string name="in_app_surfaces">Inside apps</string>
+    <string name="in_app_leave_hint">Leaves this section automatically; the rest of the app keeps working</string>
+    <string name="mode_during_freeze">During any freeze</string>
+    <string name="mode_always">Always</string>
+    <string name="rules_file_version">Rules v%1$d (%2$s)</string>
+    <string name="rules_source">Source: %1$s</string>
+    <string name="rules_override_path">Override file: %1$s</string>
+    <string name="reload_rules">Reload rules</string>
+    <string name="selector_health_explain">“Working” means the selector matched at least once since Freezr started. “No match” means it was checked but never matched — the target app may have changed its layout.</string>
+    <string name="sel_not_installed">Not installed</string>
+    <string name="sel_working">Working</string>
+    <string name="sel_no_match">No match</string>
+    <string name="sel_untested">Not checked yet</string>
+    <string name="sel_stats">Checked %1$d× · matched %2$d× · last match %3$s</string>
+
+    <!-- Tiles & widget -->
+    <string name="tile_master">Freezr</string>
+    <string name="tile_focus">Focus</string>
+    <string name="tile_start_30">Tap for 30 min</string>
+    <string name="tile_remaining">%1$s left</string>
+    <string name="widget_label">Freezr</string>
+    <string name="widget_description">Protection status and one-tap focus sessions</string>
+    <string name="widget_focus_until">Focus until %1$s</string>
+    <string name="widget_focus_cd">Start a %1$s focus session</string>
+
+    <!-- Accessibility service (shown in system Settings) -->
+    <string name="a11y_service_summary">Freezes the apps you choose at the times you choose.</string>
+    <string name="a11y_service_description">Freezr uses this service to detect which app is open so it can cover apps you’ve frozen. If you enable website or Reels blocking, it also reads browser address bars and recognises specific screens in those apps. Under Strict Mode it recognises Freezr’s own Settings pages. Nothing is stored or sent anywhere.</string>
+
+    <!-- Plurals -->
+    <plurals name="active_count">
+        <item quantity="one">%d active</item>
+        <item quantity="other">%d active</item>
+    </plurals>
+    <plurals name="apps_count">
+        <item quantity="one">%d app</item>
+        <item quantity="other">%d apps</item>
+    </plurals>
+    <plurals name="apps_selected">
+        <item quantity="one">%d app selected</item>
+        <item quantity="other">%d apps selected</item>
+    </plurals>
+    <plurals name="attempts">
+        <item quantity="one">%d try</item>
+        <item quantity="other">%d tries</item>
+    </plurals>
+    <plurals name="choose_apps_count">
+        <item quantity="one">%d app chosen</item>
+        <item quantity="other">%d apps chosen</item>
+    </plurals>
+    <plurals name="days">
+        <item quantity="one">%d day</item>
+        <item quantity="other">%d days</item>
+    </plurals>
+    <plurals name="emergency_unlock_left">
+        <item quantity="one">Emergency unlock (%d left)</item>
+        <item quantity="other">Emergency unlock (%d left)</item>
+    </plurals>
+    <plurals name="extra_minutes_added">
+        <item quantity="one">%d extra minute added</item>
+        <item quantity="other">%d extra minutes added</item>
+    </plurals>
+    <plurals name="hero_frozen">
+        <item quantity="one">%d app frozen</item>
+        <item quantity="other">%d apps frozen</item>
+    </plurals>
+    <plurals name="limit_minutes_left">
+        <item quantity="one">%d minute left today</item>
+        <item quantity="other">%d minutes left today</item>
+    </plurals>
+    <plurals name="minutes_per_day">
+        <item quantity="one">%d minute a day</item>
+        <item quantity="other">%d minutes a day</item>
+    </plurals>
+    <plurals name="my_apps_count">
+        <item quantity="one">My apps (%d)</item>
+        <item quantity="other">My apps (%d)</item>
+    </plurals>
+    <plurals name="passes_left">
+        <item quantity="one">%d left this week</item>
+        <item quantity="other">%d left this week</item>
+    </plurals>
+    <plurals name="passes_left_week">
+        <item quantity="one">%1$d of %2$d passes left this week</item>
+        <item quantity="other">%1$d of %2$d passes left this week</item>
+    </plurals>
+    <plurals name="pre_freeze_title">
+        <item quantity="one">Freezing in %2$d minute: %1$s</item>
+        <item quantity="other">Freezing in %2$d minutes: %1$s</item>
+    </plurals>
+    <plurals name="status_frozen">
+        <item quantity="one">%d app frozen</item>
+        <item quantity="other">%d apps frozen</item>
+    </plurals>
+    <plurals name="unlock_for_minutes">
+        <item quantity="one">Unlock for %d minute</item>
+        <item quantity="other">Unlock for %d minutes</item>
+    </plurals>
+</resources>

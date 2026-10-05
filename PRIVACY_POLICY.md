@@ -39,4 +39,4 @@ Freezr does not knowingly collect any information from anyone, including childre
 
 ## Contact
 
-[developer contact email]
+Questions or concerns: open an issue at https://github.com/Akashtripathi7/freezr/issues

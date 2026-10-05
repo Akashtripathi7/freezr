@@ -159,3 +159,7 @@ installed app to freeze; the launcher-intent query is insufficient because …"*
   Overlay/accessibility behaviour is covered by the manual checklist.
 - Some short computed phrases in `ui/components/Format.kt` (e.g. "Every day", "Frozen tonight …")
   are in Kotlin rather than `strings.xml`; everything else is externalised.
+
+## License
+
+Copyright 2026 Akash Tripathi. Licensed under the [Apache License, Version 2.0](LICENSE).
